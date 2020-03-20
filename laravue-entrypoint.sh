@@ -21,7 +21,8 @@ then
 fi
 
 php artisan passport:install
-npm install && npm run production
+npm install -g yarn
+yarn install && yarn production
 
 php artisan serve --host 0.0.0.0
 
