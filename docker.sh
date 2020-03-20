@@ -1,0 +1,1 @@
+docker exec -it fonshin_laravel_1
