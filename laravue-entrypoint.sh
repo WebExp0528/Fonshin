@@ -21,7 +21,7 @@ then
 fi
 
 php artisan passport:install
-npm install && npm run production
+npm install && npm run watch
 
 php artisan serve --host 0.0.0.0
 
